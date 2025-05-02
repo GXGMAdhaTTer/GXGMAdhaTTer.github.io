@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>道歉与购物车</title>
+    <title>来自GXG的道歉</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="apology">
-        <h1>对不起！</h1>
-        <p>我们非常抱歉给您带来了不便。</p>
+        <h1>对不起，再也不敢鸽了！</h1>
+        <p>竭尽所能给亲爱的宝贝补偿。</p>
     </div>
 
     <div class="product-tabs">
-        <div class="product-tab active" onclick="showProducts('products1')">商品1</div>
-        <div class="product-tab" onclick="showProducts('products2')">商品2</div>
+        <div class="product-tab active" onclick="showProducts('products1')">物质奖励</div>
+        <div class="product-tab" onclick="showProducts('products2')">精神服务</div>
     </div>
 
     <div id="products1" class="products active">
-        <div class="product" onclick="addToCart('商品A', 10, event)">商品A - ¥10</div>
-        <div class="product" onclick="addToCart('商品B', 20, event)">商品B - ¥20</div>
+        <div class="product" onclick="addToCart('金链子', 3000, event)">金链子 - ¥3000</div>
+        <div class="product" onclick="addToCart('金手镯', 30000, event)">金手镯 - ¥30000</div>
+        <div class="product" onclick="addToCart('漂亮裙子', 500, event)">漂亮裙子 - ¥500</div>
     </div>
 
     <div id="products2" class="products">
-        <div class="product" onclick="addToCart('商品C', 30, event)">商品C - ¥30</div>
-        <div class="product" onclick="addToCart('商品D', 40, event)">商品D - ¥40</div>
+        <div class="product" onclick="addToCart('点陪玩上分', 5, event)">点陪玩上分 - ¥5</div>
+        <div class="product" onclick="addToCart('八卦分享', 10, event)">八卦分享 - ¥10</div>
     </div>
 
     <div class="cart">
@@ -37,7 +38,7 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <div class="runner"></div>
-            <p>gxg努力搬砖中，请稍候～</p>
+            <p>GXG努力搬砖中，请稍候～</p>
         </div>
     </div>
 

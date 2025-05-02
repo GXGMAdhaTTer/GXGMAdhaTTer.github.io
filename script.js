@@ -44,7 +44,7 @@ function showModal() {
   setTimeout(() => {
       modal.style.display = 'none';
       contactInfo.innerHTML = `
-          <p>请联系天使热线18868116065取货。</p>
+          <p>请截图订单联系 18868116065 取货。</p>
           <img src="qrcode.jpg" alt="二维码" style="width: 100%; height: auto; max-width: 500px; margin-top: 10px; display: block; margin-left: auto; margin-right: auto;">
       `;
   }, 3000);
